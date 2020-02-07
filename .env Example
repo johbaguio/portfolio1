@@ -1,0 +1,6 @@
+NODEMAILER_EMAIL= <yourusername>@gmail.com
+NODEMAILER_PASS= <password>
+
+ADMIN_EMAIL= admin@SU.dk
+
+PORT=5000
