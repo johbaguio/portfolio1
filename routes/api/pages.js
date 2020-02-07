@@ -25,6 +25,9 @@ router.post(
       .isEmpty(),
     check('name', 'Your name is required')
       .not()
+      .isEmpty(),
+    check('message', 'Your message is required')
+      .not()
       .isEmpty()
   ],
   async (req, res) => {
@@ -39,6 +42,7 @@ router.post(
     <ul>  
       <li>Name: ${req.body.name}</li>
       <li>Email: ${req.body.email}</li>
+      <p> Message: ${req.body.message} </p>
     </ul>
   `;
 
