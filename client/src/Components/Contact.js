@@ -64,13 +64,12 @@ class Contact extends Component {
               </Form.Group>
               <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows="3" name='message' value={this.state.message} onChange={this.handleChange} />
+                <Form.Control required as="textarea" rows="3" name='message' value={this.state.message} onChange={this.handleChange} />
               </Form.Group>
-              <ButtonToolbar>
-                <Button variant="primary">Send</Button>
-              </ButtonToolbar>
+              <input type='submit' className='submit-btn' value='Submit' />
             </Form>
             <Connected message={this.state.sentNote} />
+
           </div>
 
           <div className='contact-options'>
@@ -84,7 +83,7 @@ class Contact extends Component {
                 className='contact-option'
               >
                 ✉️  johbaguio@gmail.com
-                  </a>
+                            </a>
               <p className='contact-option'> 📱 +45 29642002</p>
             </div>
 
@@ -92,11 +91,11 @@ class Contact extends Component {
               {/* LinkedIn */}
               <a href='https://www.linkedin.com/in/johanna-may-baguio-a8aa90174/' rel='noopener noreferrer' target='_blank'>
                 Let's connect<i className="fa fa-linkedin-square" aria-hidden='true' /> •
-                  </a> <br />
+                            </a> <br />
               {/* Instagram */}
               <a href='https://www.instagram.com/johbaguio/' rel='noopener noreferrer' target='_blank'>
                 Follow me<i className="fa fa-instagram" aria-hidden='true' /> •
-                  </a> <br />
+                            </a> <br />
               {/* Facebook */}
               <a href='https://www.facebook.com/johbaguio' rel='noopener noreferrer' target='_blank'>
                 Add me up<i className="fa fa-facebook-square" aria-hidden='true' />
@@ -104,11 +103,8 @@ class Contact extends Component {
             </div>
 
           </div>
-
-        </div>
+        </div >
       </div>
-
-
     );
   }
 }

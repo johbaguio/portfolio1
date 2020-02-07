@@ -4,7 +4,7 @@ export class Subscribed extends Component {
   render() {
     return (
       <React.Fragment>
-        <p className='subscribed'>{this.props.message}</p>
+        <p className='connected'>{this.props.message}</p>
       </React.Fragment>
     );
   }
