@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio-emails",
   "version": "1.0.0",
   "description": "Portfolio",
   "main": "server.js",
@@ -12,17 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samyarmodabber/silent-university.git"
+    "url": "git+https://github.com/johbaguio/portfolio1.git"
   },
-  "keywords": [
-    "university"
-  ],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samyarmodabber/silent-university/issues"
+    "url": "https://github.com/johbaguio/portfolio1/issues"
   },
-  "homepage": "https://github.com/samyarmodabber/silent-university#readme",
+  "homepage": "https://github.com/johbaguio/portfolio1#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "dotenv": "^8.2.0",
@@ -32,6 +29,8 @@
     "react-bootstrap": "^1.0.0-beta.16"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "concurrently": "^5.0.0",
     "nodemon": "^1.19.4"
   }
